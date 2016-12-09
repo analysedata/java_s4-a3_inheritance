@@ -1,0 +1,15 @@
+/* Session 4 Assignment 3:
+
+ * 	How do you invoke a root parent class method from a child of a child of the root parent?
+
+ * 	Answer:
+ 		b. super.test();
+            	
+ * 	Explanation:
+		Use the super keyword in both child classes (super.test()).
+		
+		When super.test() is invoked in a ClassA object, it is invoking the ClassB test() method. 
+		When the super.test() in ClassB is invoked, it is invoking the ClassC test() method.
+		
+		So the "grandchild" accesses the "grandparent's" test() method when the super keyword (super.test()) is used in both subclasses.
+*/
